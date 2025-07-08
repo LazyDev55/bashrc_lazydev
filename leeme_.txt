@@ -1,4 +1,4 @@
-﻿alias apa='systemctl poweroff'
+alias apa='systemctl poweroff'
 alias rei='systemctl reboot'
 alias ping='ping 8.8.8.8'
 alias act='~/.actualizar.sh'
