@@ -12,10 +12,10 @@ alias sus='systemctl suspend'
 
 ## Descripción de los alias
 
-- **`apa`**: Ejecuta el script de actualización y apaga el sistema
+- **`apa`**: Ejecuta el script de actualización y apaga el sistema (https://github.com/LazyDev55/script_actualizacion_lazydev)
 - **`rei`**: Reinicia el sistema
 - **`ping`**: Realiza ping al servidor DNS de Google (8.8.8.8)
-- **`act`**: Ejecuta el script de actualización del sistema
+- **`act`**: Ejecuta el script de actualización del sistema (https://github.com/LazyDev55/script_actualizacion_lazydev)
 - **`sus`**: Suspende el sistema
 
 ## Instalación
@@ -61,6 +61,6 @@ alias sus='"'"'scrot /tmp/screen_locked.png && convert /tmp/screen_locked.png -b
 ```
 
 ## Notas
-- Asegúrate de que el script `~/.actualizar.sh` exista y tenga permisos de ejecución
+- Asegúrate de que el script `~/.actualizar.sh` exista y tenga permisos de ejecución (https://github.com/LazyDev55/script_actualizacion_lazydev)
 - El alias para i3 requiere paquetes adicionales instalados
 - Modifica según tus necesidades específicas
