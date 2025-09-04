@@ -40,15 +40,8 @@ Agrega estos alias a tu archivo `.bashrc` o `.zshrc`:
 
 ```bash
 echo '
-# Aliases de sistema
-alias apa='"'"'~/.actualizar.sh && systemctl poweroff'"'"'
-alias rei='"'"'systemctl reboot'"'"'
-alias ping='"'"'ping 8.8.8.8'"'"'
-alias act='"'"'~/.actualizar.sh'"'"'
-alias sus='"'"'systemctl suspend'"'"'
-
 # Alias para i3 (descomentar si se usa i3)
-# alias sus='"'"'scrot /tmp/screen_locked.png && convert /tmp/screen_locked.png -blur 0x12 /tmp/screen_blurred.png && i3lock -i /tmp/screen_blurred.png && rm /tmp/screen_locked.png /tmp/screen_blurred.png && systemctl suspend'"'"'
+alias sus='"'"'scrot /tmp/screen_locked.png && convert /tmp/screen_locked.png -blur 0x12 /tmp/screen_blurred.png && i3lock -i /tmp/screen_blurred.png && rm /tmp/screen_locked.png /tmp/screen_blurred.png && systemctl suspend'"'"'
 ' >> ~/.bashrc
 ```
 
