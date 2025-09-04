@@ -33,11 +33,11 @@ alias sus='"'"'systemctl suspend'"'"'
 ' >> ~/.bashrc
 ```
 
-## Alias avanzado para i3wm
+## Alias avanzado para i3wm (https://github.com/LazyDev55/i3wm_lazydev)
 
 ```bash
 # Versión para i3 con bloqueo de pantalla elegante
-alias sus='scrot /tmp/screen_locked.png && \
+alias sus-i3='scrot /tmp/screen_locked.png && \
            convert /tmp/screen_locked.png -blur 0x12 /tmp/screen_blurred.png && \
            i3lock -i /tmp/screen_blurred.png && \
            rm /tmp/screen_locked.png /tmp/screen_blurred.png && \
@@ -56,7 +56,7 @@ Agrega estos alias a tu archivo `.bashrc` o `.zshrc`:
 ```bash
 echo '
 # Alias para i3 (descomentar si se usa i3)
-alias sus='"'"'scrot /tmp/screen_locked.png && convert /tmp/screen_locked.png -blur 0x12 /tmp/screen_blurred.png && i3lock -i /tmp/screen_blurred.png && rm /tmp/screen_locked.png /tmp/screen_blurred.png && systemctl suspend'"'"'
+alias sus-i3='"'"'scrot /tmp/screen_locked.png && convert /tmp/screen_locked.png -blur 0x12 /tmp/screen_blurred.png && i3lock -i /tmp/screen_blurred.png && rm /tmp/screen_locked.png /tmp/screen_blurred.png && systemctl suspend'"'"'
 ' >> ~/.bashrc
 ```
 
