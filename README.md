@@ -18,6 +18,19 @@ alias sus='systemctl suspend'
 - **`act`**: Ejecuta el script de actualización del sistema
 - **`sus`**: Suspende el sistema
 
+## Instalación
+
+Agrega estos alias a tu archivo `.bashrc` o `.zshrc`:
+
+```bash
+echo '
+alias apa='~/.actualizar.sh && systemctl poweroff' 
+alias rei='systemctl reboot' 
+alias ping='ping 8.8.8.8' 
+alias act='~/.actualizar.sh' 
+alias sus='systemctl suspend'' >> ~/.bashrc
+```
+
 ## Alias avanzado para i3wm
 
 ```bash
